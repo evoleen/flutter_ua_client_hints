@@ -36,10 +36,6 @@ android {
     lintOptions {
         disable 'InvalidPackage'
     }
-    kotlinOptions {
-        jvmTarget = '1.8'
-    }
-
 
     namespace 'jp.wasabeef.ua.client_hints'
 }
